@@ -70,7 +70,7 @@ p {
   line-height: 1.8em !important;    /*行间距*/
   letter-spacing: 0.1em !important; /*字间距*/
   text-align: justify !important;   /*对齐方式*/
-  font-size: 16px !important;
+  font-size: 15px !important;
   color:#3f3f3f;
 }
 
@@ -84,7 +84,7 @@ ul, ol {
 
 li {
   margin: 0.5em 0;
-  font-size: 16px !important;
+  font-size: 15px !important;
   color: #3f3f3f !important;
   line-height: 1.2em !important;
   letter-spacing: 0.1em !important;
@@ -94,6 +94,10 @@ li {
 li p {
   /* Needs !important to override rule above. */
   margin: 0.5em 0 !important;
+  font-size: 15px !important;
+  color: #3f3f3f !important;
+  line-height: 1.2em !important;
+  letter-spacing: 0.1em !important;
 }
 
 /* Smaller spacing for sub-lists */
@@ -212,4 +216,8 @@ table tr th, table tr td {
 table tr th {
  font-weight: bold;
   background-color: #F0F0F0;
+}
+
+img {
+  text-align:center;
 }
